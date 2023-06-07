@@ -1,0 +1,25 @@
+{% extends "base.jinja.html" %}
+{% block title %}Heatmap{% endblock %}
+{% block head %}
+{{ super() }}
+<style type="text/css">
+    .important {
+        color: #336699;
+    }
+    #container {
+        text-align: center;
+    }
+        #container img {
+        display: inline-block;
+        width: 1200px;
+        vertical-align: bottom;
+    }
+
+</style>
+
+{% endblock %}
+{% block content %}
+<h1>Colorful Heatmap</h1>
+<img src="{{ heatmap_path }}" alt="Heatmap">
+{% endblock %}
+

@@ -1,0 +1,36 @@
+{% extends "base.jinja.html" %}
+{% block title %}Fun Circles Chart{% endblock %}
+
+{% block head %}
+{{ super() }}
+
+{% endblock %}
+
+
+{% block content %}
+<h1>Fun Circles Chart</h1>
+
+    <div id="containerC">
+    </div>
+
+    <script>
+        var containerC = document.getElementById("containerC");
+        var totalColumns = 8;
+        var totalRows = 24;
+        var circleSpacing = 10; // Adjust this value as needed
+
+        for (var i = 0; i < totalColumns; i++) {
+            var row = document.createElement("div");
+            row.classList.add("row");
+
+            for (var j = 0; j < totalRows; j++) {
+                var circle = document.createElement("div");
+                circle.classList.add("circle");
+                row.appendChild(circle);
+            }
+            containerC.appendChild(row);
+        }
+    </script>
+
+
+{% endblock %}

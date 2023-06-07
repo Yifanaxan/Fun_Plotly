@@ -1,0 +1,69 @@
+{% extends "base.jinja.html" %}
+{% block title %}4 * Beautiful Subburst Diagram{% endblock %}
+
+{% block head %}
+{{ super() }}
+
+    <style>
+        .no-gutters {
+            margin-right: 0;
+            margin-left: 0;
+        }
+    
+        .no-gutters>.col-md-6,
+        .no-gutters>[class^="col-"] {
+            padding-right: 0;
+            padding-left: 0;}
+
+        .chart-container {
+            width: 100%;
+            height: 600px;
+        }
+        .custom-spacing {
+            margin-bottom: -150px;
+        }
+    </style>
+
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    
+{% endblock %}
+
+
+{% block content %}
+<h1>4 * Beautiful Subburst Diagram</h1>
+    <div class="container">
+        <div class="row no-gutters custom-spacing">
+            <div class="col-md-6">
+                <div class="chart-container" id="chart1"></div>
+            </div>
+            <div class="col-md-6">
+                <div class="chart-container" id="chart2"></div>
+            </div>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-md-6">
+                <div class="chart-container" id="chart3"></div>
+            </div>
+            <div class="col-md-6">
+                <div class="chart-container" id="chart4"></div>
+            </div>
+        </div>
+    </div>
+        
+        <script>
+            var fig1_data = {{ fig1| safe }};
+            Plotly.newPlot('chart1', fig1_data.data, fig1_data.layout);
+
+            var fig2_data = {{ fig2| safe }};
+            Plotly.newPlot('chart2', fig2_data.data, fig2_data.layout);
+
+            var fig3_data = {{ fig3| safe }};
+            Plotly.newPlot('chart3', fig3_data.data, fig3_data.layout);
+
+            var fig4_data = {{ fig4| safe }};
+            Plotly.newPlot('chart4', fig4_data.data, fig4_data.layout);
+        </script>
+
+
+
+{% endblock %}

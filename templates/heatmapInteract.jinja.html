@@ -1,0 +1,26 @@
+{% extends "base.jinja.html" %}
+{% block title %}Interactive Heatmap{% endblock %}
+{% block head %}
+{{ super() }}
+<style type="text/css">
+    .important {
+        color: #ffffff;
+    }
+</style>
+
+{% endblock %}
+{% block content %}
+<h1>Interactive Heatmap</h1>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+    <div id="heatmap-container">
+        {{ plot_div|safe }}
+    </div>
+
+{% endblock %}
+
+
+
+
+
+

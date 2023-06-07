@@ -1,0 +1,301 @@
+Indent Level,Item and Group,Weight,Parent
+2,Johannesburg,7490470,South Africa
+2,Munich,9635903,Germany
+5,London,9741532,United Kingdom
+1,Sao Paulo,9259858,Brazil
+4,Naples,7887028,Italy
+6,Berlin,1449164,Germany
+5,Chengdu,100273,China
+5,Novosibirsk,530148,Russia
+6,Lyon,172582,France
+1,Glasgow,1492556,United Kingdom
+2,Shanghai,6376762,China
+3,Houston,2554118,United States
+7,Guangzhou,3832100,China
+7,Glasgow,1586904,United Kingdom
+6,Edmonton,530148,Canada
+3,Manchester,4333516,United Kingdom
+1,Salvador,1125660,Brazil
+8,Monterrey,4236371,Mexico
+5,Houston,7298848,United States
+8,Perth,6123315,Australia
+8,Beijing,4771394,China
+1,Mexico City,540491,Mexico
+4,Buenos Aires,1351138,Argentina
+2,Berlin,5108892,Germany
+7,La Plata,2313808,Argentina
+7,Beijing,968752,China
+7,Brisbane,9307596,Australia
+4,Mendoza,5508349,Argentina
+8,Shenzhen,2247229,China
+3,Beijing,8258211,China
+7,Mendoza,2360621,Argentina
+3,Moscow,3068495,Russia
+5,Hamburg,1318269,Germany
+8,Pretoria,100273,South Africa
+8,Rio de Janeiro,1152143,Brazil
+5,Cape Town,7526227,South Africa
+4,Kyoto,3175242,Japan
+5,Phoenix,5217131,United States
+7,Shanghai,236938,China
+1,Fortaleza,3718050,Brazil
+7,Monterrey,2003941,Mexico
+5,London,7040677,United Kingdom
+1,Chicago,1060186,United States
+4,Mexico City,1983949,Mexico
+7,Mumbai,1836638,India
+4,Berlin,3109336,Germany
+7,Edmonton,8217264,Canada
+8,Rosario,968752,Argentina
+5,Rome,8955362,Italy
+4,Tijuana,4810264,Mexico
+3,Berlin,8569177,Germany
+8,Rome,1125660,Italy
+1,Durban,7527914,South Africa
+6,Brasilia,7314602,Brazil
+2,Vancouver,5932689,Canada
+2,Toronto,8447332,Canada
+6,Glasgow,7199547,United Kingdom
+3,Rio de Janeiro,385838,Brazil
+6,Cape Town,8600553,South Africa
+8,Lyon,1983949,France
+8,Fortaleza,5521406,Brazil
+7,Yokohama,7314602,Japan
+4,Adelaide,8291211,Australia
+1,Chengdu,8345265,China
+4,Lyon,5217131,France
+6,Marseille,5521406,France
+8,Toulouse,4958870,France
+8,Chennai,4347614,India
+1,Brasilia,8261672,Brazil
+3,Chennai,3718050,India
+3,Mendoza,7298848,Argentina
+5,Mumbai,8964838,India
+6,Liverpool,3233580,United Kingdom
+1,Osaka,937272,Japan
+5,Novosibirsk,7563341,Russia
+8,Brasilia,493201,Brazil
+3,Phoenix,6838288,United States
+8,Rosario,6935474,Argentina
+4,Adelaide,2585655,Australia
+1,Bangalore,6835913,India
+7,Delhi,5033473,India
+7,Chengdu,4058641,China
+7,Fortaleza,3930175,Brazil
+7,Beijing,6935474,China
+5,Salvador,639997,Brazil
+3,Beijing,108843,China
+6,Salvador,1230683,Brazil
+3,Palermo,4042098,Italy
+5,Delhi,703036,India
+5,Yekaterinburg,8679253,Russia
+6,Nice,3360825,France
+4,Pretoria,7527914,South Africa
+1,Guangzhou,573774,China
+1,Novosibirsk,1362938,Russia
+2,Hamburg,294152,Germany
+6,Novosibirsk,4550439,Russia
+1,Salvador,768399,Brazil
+1,Sydney,1351138,Australia
+4,Liverpool,1845096,United Kingdom
+5,Tijuana,7019065,Mexico
+8,Montreal,9307596,Canada
+4,Guangzhou,530148,China
+6,Nice,108843,France
+4,Buenos Aires,8226115,Argentina
+3,Monterrey,9307596,Mexico
+5,Toulouse,5694388,France
+4,Kolkata,8569177,India
+3,Pretoria,4673378,South Africa
+7,Sapporo,9190967,Japan
+6,Yokohama,4497440,Japan
+5,Cape Town,1125660,South Africa
+8,Edmonton,7314602,Canada
+6,Kyoto,3109336,Japan
+3,Lyon,6123315,France
+5,Pretoria,295835,South Africa
+3,Calgary,4708309,Canada
+2,Calgary,2945744,Canada
+5,Los Angeles,5775406,United States
+3,Brisbane,6634494,Australia
+3,Brasilia,8550971,Brazil
+6,Chennai,7262920,India
+5,Vancouver,1351138,Canada
+6,Turin,9395488,Italy
+2,Phoenix,8352650,United States
+2,Guangzhou,8554094,China
+5,Rio de Janeiro,540491,Brazil
+5,Johannesburg,7527914,South Africa
+7,Mexico City,4796405,Mexico
+1,Vancouver,3682949,Canada
+1,Sao Paulo,1914676,Brazil
+6,Mendoza,7563341,Argentina
+3,Glasgow,558871,United Kingdom
+8,Chengdu,6687723,China
+5,Guangzhou,2554118,China
+3,Mexico City,1914676,Mexico
+7,Phoenix,8328948,United States
+4,Phoenix,108843,United States
+5,Perth,541778,Australia
+6,Guadalajara,6994641,Mexico
+8,Birmingham,1586904,United Kingdom
+4,Guangzhou,1368816,China
+3,Yekaterinburg,236938,Russia
+3,Berlin,5033473,Germany
+6,Mumbai,7952588,India
+7,Salvador,7154372,Brazil
+1,Houston,9118710,United States
+3,Phoenix,5556167,United States
+8,Tijuana,3784921,Mexico
+7,Phoenix,9548879,United States
+4,Shanghai,6835913,China
+2,Calgary,6795020,Canada
+8,Munich,8547281,Germany
+1,Rome,2550458,Italy
+2,Chennai,4958870,India
+6,Glasgow,3920591,United Kingdom
+3,Birmingham,4333516,United Kingdom
+5,Naples,7713900,Italy
+2,Cologne,6081695,Germany
+2,Port Elizabeth,9259858,South Africa
+1,Pretoria,9586776,South Africa
+6,Nice,9161002,France
+2,Yokohama,1368816,Japan
+8,Los Angeles,9741532,United States
+5,Frankfurt,7885028,Germany
+1,Toulouse,8341305,France
+6,Houston,1230683,United States
+7,Melbourne,4673378,Australia
+7,Kazan,172582,Russia
+3,Calgary,9452883,Canada
+3,Cologne,1914676,Germany
+3,Kazan,1449164,Russia
+4,Sydney,6795020,Australia
+5,Buenos Aires,9395488,Argentina
+2,Nice,248886,France
+7,Saint Petersburg,6713241,Russia
+1,Vancouver,5235047,Canada
+6,Rome,9161002,Italy
+4,Glasgow,3729735,United Kingdom
+7,Manchester,558871,United Kingdom
+2,Guadalajara,242356,Mexico
+5,Paris,8217264,France
+3,Hamburg,1449164,Germany
+3,Puebla,9611257,Mexico
+3,Novosibirsk,295835,Russia
+6,Turin,5235047,Italy
+2,Shenzhen,9542062,China
+2,Guadalajara,9452883,Mexico
+1,Buenos Aires,5235047,Argentina
+7,Sao Paulo,3156340,Brazil
+1,Montreal,1368816,Canada
+3,Manchester,6783962,United Kingdom
+7,Kolkata,8679253,India
+4,Guadalajara,5416236,Mexico
+4,Bangalore,8130371,India
+8,Toronto,8206264,Canada
+4,Brasilia,8083024,Brazil
+8,Moscow,541778,Russia
+7,Calgary,504648,Canada
+6,Manchester,4049294,United Kingdom
+3,Novosibirsk,4137554,Russia
+8,Munich,7434409,Germany
+1,Lyon,7490470,France
+3,Birmingham,3664157,United Kingdom
+3,Novosibirsk,9307596,Russia
+6,Calgary,1861593,Canada
+1,Lyon,4771394,France
+7,Saint Petersburg,268093,Russia
+3,Mumbai,2945744,India
+8,Paris,2003941,France
+2,Edmonton,4137554,Canada
+4,Brasilia,7018214,Brazil
+6,Mendoza,1016272,Argentina
+8,Calgary,1119343,Canada
+6,Sydney,4708309,Australia
+3,Chicago,7262920,United States
+1,Houston,1104946,United States
+6,Cordoba,6518844,Argentina
+6,Vancouver,6035773,Canada
+3,La Plata,5361023,Argentina
+8,Durban,6994641,South Africa
+4,Melbourne,2945744,Australia
+8,Cape Town,1230683,South Africa
+3,Frankfurt,2995525,Germany
+3,Monterrey,4633620,Mexico
+6,Frankfurt,540491,Germany
+4,Perth,2133270,Australia
+6,Milan,5556167,Italy
+4,Durban,2550458,South Africa
+7,Birmingham,9542062,United Kingdom
+6,Pretoria,2995525,South Africa
+8,Naples,7490470,Italy
+4,Salvador,3622239,Brazil
+4,Frankfurt,8352650,Germany
+4,La Plata,6634494,Argentina
+3,Shanghai,3989929,China
+3,Glasgow,2065862,United Kingdom
+8,Pretoria,7885028,South Africa
+6,Chengdu,1259569,China
+5,Salvador,1430585,Brazil
+1,Toronto,1414971,Canada
+7,Houston,3013619,United States
+3,Shenzhen,8086217,China
+7,Pretoria,2995525,South Africa
+4,Saint Petersburg,5932689,Russia
+5,Birmingham,8130371,United Kingdom
+5,Mumbai,541778,India
+6,Lyon,4633620,France
+7,Toronto,3848637,Canada
+4,Puebla,7885028,Mexico
+6,Palermo,768399,Italy
+6,Sapporo,4611428,Japan
+7,Los Angeles,6507186,United States
+7,Buenos Aires,7734330,Argentina
+6,Mendoza,4497440,Argentina
+7,Puebla,4673378,Mexico
+4,Sydney,2995525,Australia
+3,Frankfurt,8352650,Germany
+5,Hamburg,3729735,Germany
+1,Lyon,6634494,France
+6,Brasilia,7526269,Brazil
+7,Kolkata,3920591,India
+7,Turin,4796405,Italy
+2,Shanghai,6935474,China
+6,Montreal,1861593,Canada
+2,Chennai,5331353,India
+2,Saint Petersburg,295835,Russia
+3,Moscow,937272,Russia
+7,Johannesburg,9741532,South Africa
+7,Brisbane,2755677,Australia
+1,Houston,5729344,United States
+7,Vancouver,3784921,Canada
+5,Chicago,7434409,United States
+5,Vancouver,9586776,Canada
+1,Kyoto,242356,Japan
+6,Rome,4708309,Italy
+2,Marseille,1614702,France
+5,Bangalore,4970431,India
+6,Sapporo,3068495,Japan
+3,Bangalore,8447332,India
+3,Turin,5038894,Italy
+6,Naples,3391074,Italy
+4,Guadalajara,5416236,Mexico
+5,Novosibirsk,1983949,Russia
+2,Cologne,5461203,Germany
+1,Kolkata,2196417,India
+4,Delhi,6687723,India
+7,Yekaterinburg,5667385,Russia
+8,Berlin,6035773,Germany
+7,Salvador,6795020,Brazil
+1,Mumbai,4434348,India
+3,Buenos Aires,220292,Argentina
+1,Calgary,6634494,Canada
+8,Houston,573774,United States
+3,Hamburg,504648,Germany
+6,Cologne,2133270,Germany
+1,Paris,6838288,France
+5,Calgary,5331353,Canada
+7,Vancouver,100273,Canada
+2,Munich,6174195,Germany
+5,Melbourne,6339721,Australia

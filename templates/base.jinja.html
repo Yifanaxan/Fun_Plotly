@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% block head %}
+    <link rel="stylesheet" href="{{url_for('static', filename='base.css')}}" />
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <!-- <link rel="stylesheet" href="../static/base.css"> -->
+    <title>{% block title %}{% endblock %} - My Webpage</title>
+    {% endblock %}
+</head>
+
+<body>
+    <div id="container">
+        <nav>
+            <ul>
+                <li><a href="{{url_for('heatmap')}}">Colorful Heatmap</a></li>
+                <li><a href="{{url_for('heatmapInteract')}}">Interactive Heatmap</a></li>
+                <li><a href="{{url_for('iris')}}">Iris Scatter Chart</a></li>
+                <li><a href="{{url_for('worldmap')}}">World Map  @  Taiwan</a></li>
+                <li><a href="{{url_for('capitalcities')}}">Capital Cities World Map</a></li>
+                <li><a href="{{url_for('sunburstdiagram')}}">Sunburst Diagram</a></li>
+                <!-- <li><a href="{{url_for('piechart')}}">Pie Chart</a></li> -->
+
+                <li><a href="{{url_for('funcircles')}}">Fun Circles Chart</a></li>
+
+                <li><a href="{{url_for('a')}}">2 * Beautiful Sunbursts</a></li>
+                <li><a href="{{url_for('gdpbycountry')}}">GDP by Country</a></li>
+                <li><a href="{{url_for('b')}}">4 * Beautiful Sunbursts</a></li>
+                <li><a href="{{url_for('earthquake')}}">Earthquake Map <b>LIVE</b></a></li>
+            </ul>
+        </nav>
+        <div id="content">{% block content %}{% endblock %}</div>
+    
+        <div id="footer">
+            <!-- {% block footer %} -->
+            Axan  Inc. &copy; Copyright 2018 by <a href="https://chat.openai.com/"> Axan </a>.
+            <!-- {% endblock %} -->
+        </div>
+    </div>
+</body>
+
+</html>

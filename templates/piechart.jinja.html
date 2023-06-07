@@ -1,0 +1,37 @@
+{% extends "base.jinja.html" %}
+{% block title %}Pie Chart{% endblock %}
+
+
+{% block head %}
+{{ super() }}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='piechart.css') }}">
+
+<style>
+    #chart{
+        width: 1200px;
+    }
+</style>
+
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+
+{% endblock %}
+
+
+
+{% block content %}
+<h1>Pie Chart</h1>
+
+    <div id="chart-container">
+        <div id="chart"></div>
+    </div>
+    
+    <script>
+        // Parse the JSON data passed from Flask
+        var chartData = JSON.parse('{{ chart_json|safe }}');
+
+        // Create the chart using Plotly.js
+        Plotly.newPlot('chart', chartData.data, chartData.layout);
+    </script>
+
+{% endblock %}

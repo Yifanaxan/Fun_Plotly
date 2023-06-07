@@ -1,0 +1,33 @@
+{% extends "base.jinja.html" %}
+{% block title %}Capital Cities{% endblock %}
+
+{% block head %}
+    {{ super() }}
+    <title>Capital Cities Map</title>
+    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='base.css') }}"> -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        #content {
+            position: relative;
+            width: 100%;
+            height: 600px;
+        }
+    
+        </style
+
+
+
+{% endblock %}
+
+
+{% block content %}
+<h1>GDP by Country</h1>
+
+<div id="plot"></div>
+
+<script type="text/javascript">
+    var plotDiv = document.getElementById('plot');
+    plotDiv.innerHTML = '{{ plot_html|safe }}';
+</script>
+
+{% endblock %}

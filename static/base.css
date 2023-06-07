@@ -1,0 +1,151 @@
+/* 修飾base.jinja.html*/ 
+
+* {
+    font-family: Axelle;
+    font-size: 24px;
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+  /* background-color: rgb(53, 51, 51); */
+  background: linear-gradient(0deg, rgba(154, 14, 118, 1) 0%, rgba(34, 150, 221, 1) 100%);
+  background-repeat:no-repeat;
+}
+
+#container {
+    width: 1200px;
+    /* height: 1200px; */
+    background-color: #2c303359;
+    /* background-color: rgb(227, 255, 127); */
+    padding-top: 30px;
+    border-radius: 30px;
+}
+
+nav{}
+
+ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+}
+
+ul li{
+  
+}
+
+ul li b {
+  font-size: 40px;
+  padding-left: 20px;
+  animation-name: color-animation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes color-animation {
+  0% {
+    color: rgba(154, 14, 118, 1);
+  }
+
+  50% {
+    color: rgba(34, 150, 221, 1);
+  }
+
+  100% {
+    color: rgba(154, 14, 118, 1);
+  }
+}
+
+
+ul li a{
+  display: block;
+  /* background-color: #0a3049; */
+  color: rgb(202, 253, 16);
+  background: linear-gradient(90deg, rgba(198, 59, 192, 1) 5%, rgba(175, 66, 171, 1) 12%, rgba(78, 96, 129, 1) 22%, rgba(59, 98, 137, 1) 27%, rgba(61, 92, 147, 1) 39%, rgba(117, 62, 168, 1) 48%, rgba(131, 64, 188, 1) 57%, rgba(137, 65, 196, 1) 60%, rgba(131, 71, 198, 1) 67%, rgba(130, 46, 203, 1) 74%, rgba(15, 133, 157, 1) 100%);
+  height: 60px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  border-radius: 20px;
+  padding-left: 20px;
+  width: 500px;
+  font-size: 30px;
+  transition: all .8s; /*做動畫*/
+}
+
+ul li a:hover {
+  transform: translate(-8px, -8px);
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.658);
+  color: rgba(0, 45, 141, 0.658);
+  font-weight: bold;
+}
+
+#content {
+
+}
+
+h1 {
+  text-align: center;
+  /* color: rgb(134, 2, 128); */
+  color: rgb(240, 47, 95);
+  font-size: 48px;
+  background-color: #0a30494f;
+}
+
+img {
+  max-width: 100%;
+}
+
+#containerC {
+  margin: 15px;
+}
+
+.row {
+  display: flex;
+  /* Add this line */
+  margin-bottom: 5px;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  /* background-color: rgba(154, 14, 118, 1); */
+  background: linear-gradient(0deg, rgba(154, 14, 118, 1) 0%, rgba(34, 150, 221, 1) 100%);
+  border-radius: 50%;
+  margin-bottom: 10px;
+  transition: all .1s;
+  /*做動畫*/
+}
+
+.circle:hover {
+  /* background-color: rgb(227, 255, 127); */
+  /* background: linear-gradient(0deg, rgb(4, 250, 37) 10%, rgb(255, 238, 0) 100%); */
+  background: linear-gradient(90deg, rgba(198, 192, 59, 1) 5%, rgba(217, 12, 209, 1) 12%, rgba(190, 238, 6, 1) 22%, rgba(225, 250, 10, 1) 27%, rgba(181, 238, 5, 1) 39%, rgba(241, 244, 0, 1) 48%, rgba(165, 255, 1, 1) 57%, rgba(189, 196, 65, 1) 60%, rgba(28, 224, 222, 1) 67%, rgba(184, 203, 46, 1) 74%, rgba(213, 3, 32, 1) 88%, rgba(8, 194, 232, 1) 100%);
+  transform: translate(-8px, -8px);
+
+}
+
+#footer {
+  text-align: center;
+  padding: 30px;
+  background-color: #0a3049;
+  color: rgb(92, 202, 245);
+  width: 1200px;
+}
+
+#footer a {
+  text-decoration: none;
+  color: rgb(240, 47, 95);
+  font-weight: bold;
+  font-size: 30px;
+}
+
+
+/* Custom font embedding */
+@font-face {
+  font-family: 'Axelle';
+  src: url('../static/Monoton-Regular.ttf') format('truetype');
+}

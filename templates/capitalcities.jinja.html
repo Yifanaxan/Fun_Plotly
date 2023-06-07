@@ -1,0 +1,27 @@
+{% extends "base.jinja.html" %}
+{% block title %}Capital Cities{% endblock %}
+
+{% block head %}
+    {{ super() }}
+    <title>Capital Cities Map</title>
+    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='base.css') }}"> -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+    <style>
+        .mapboxgl-popup-content {
+            font-size: 8px;
+            /* Adjust the font size as per your preference */
+        }
+    </style>
+
+{% endblock %}
+
+
+{% block content %}
+<h1>Capital Cities World Map</h1>
+<div id="mapWorld"></div>
+
+<script>
+    var plot_div = {{ plot_div | safe }}
+</script>
+{% endblock %}

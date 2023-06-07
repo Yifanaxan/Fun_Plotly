@@ -1,0 +1,21 @@
+{% extends "base.jinja.html" %}
+{% block title %}Sunburst Diagram{% endblock %}
+
+{% block head %}
+    {{ super() }}
+
+    <style>
+        
+    </style>
+
+{% endblock %}
+
+
+{% block content %}
+<h1>Sunburst Diagram</h1>
+
+{{ plot_html|safe }}
+{{ plotly_js }}
+
+
+{% endblock %}

@@ -1,0 +1,39 @@
+{% extends "base.jinja.html" %}
+{% block title %}Sunburst Diagram{% endblock %}
+
+{% block head %}
+{{ super() }}
+
+    <title>Subburst Diagram</title>
+        <style>
+            #chart-container {
+            /* display: flex; */
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+
+        }
+        </style>
+{% endblock %}
+
+{% block content %}
+<h1>2*Sunburst Diagram</h1>
+    <div id="chart-container">
+        <div id="chart"></div>
+    </div>
+    
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script>
+        fetch('/data')
+            .then(response => response.json())
+            .then(data => {
+                const fig = data;
+                Plotly.newPlot('chart', fig);
+            })
+            .catch(error => console.error(error));
+    </script>
+
+
+
+
+{% endblock %}

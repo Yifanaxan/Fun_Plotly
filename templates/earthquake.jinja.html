@@ -1,0 +1,35 @@
+{% extends "base.jinja.html" %}
+{% block title %}Earthquakes{% endblock %}
+
+{% block head %}
+    {{ super() }}
+
+    <style type="text/css">
+        .important {
+            color: #336699;
+        }
+
+        #chart {
+                width: 100%;
+                height: 800px; /* Adjust the height as per your preference */
+                max-width: 1200px; /* Adjust the maximum width as per your preference */
+                max-height: 600px; /* Adjust the maximum height as per your preference */
+                overflow: auto;
+        }
+        </style>
+    </style>
+{% endblock %}
+
+
+{% block content %}
+<h1>Earthquake Map LIVE</h1>
+<div id="chart" class="chart" style="max-width: 1200;overflow: auto;">
+
+</div>
+<script src="https://cdn.plot.ly/plotly-2.20.0.min.js" charset="utf-8"></script>
+<script type="text/javascript">
+    var graphs = {{ graphJSON | safe}};
+    Plotly.newPlot('chart', graphs, {});     
+</script>
+
+{% endblock %}
