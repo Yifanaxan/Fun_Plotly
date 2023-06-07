@@ -1,4 +1,4 @@
-# 🔴🟠🟡🟢🔵🟣 Beautiful Plotly 🟣🔵🟢🟡🟠🔴
+# 🔴🟠🟡🟢🔵🟣 Fun Plotly 🟣🔵🟢🟡🟠🔴
 
 &nbsp; 
 
